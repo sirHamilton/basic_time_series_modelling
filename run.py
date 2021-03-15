@@ -7,11 +7,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 if __name__ == "__main__":
+    #####################################################################################
+    # Uncomment for equity search and modelling.
     # equities = ['AAPL']
     # df = equity_lookup(equities)
     # _df = equity_lookup(equities, difference=1)
 
     # [tsplot3(_df.loc[:, series], series, lags=24) for series in _df]  # Equities
+    #####################################################################################
 
     df = economics_series('GFDEGDQ188S', end_date="2020-01-01", log=False)
     _df = economics_series('GFDEGDQ188S', end_date="2020-01-01", difference=2)
