@@ -2,7 +2,7 @@
 Apply basic time series/econometric techniques to financial data (i.e Equities, Economic Indicators).
 
 ## How to use
-On the **run.py** section of the code, you can select to lookup economic time series from the St. Louis Federal Reserve website (__FRED__) or equities from the TD Ameritrade API.
+On the **run.py** section of the code, you can select to lookup economic time series from the St. Louis Federal Reserve website (*FRED*) or equities from the TD Ameritrade API.
 
 The code for equities will look like this:
 ```python
