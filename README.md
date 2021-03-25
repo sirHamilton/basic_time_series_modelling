@@ -28,5 +28,10 @@ Please visit the St. Louis Fed website found [here](https://fred.stlouisfed.org/
 
 ![On top of the page you'll find the search bar for time series data.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/fred_website.png "St. Louis Federal Reserve Page")
 
+In the search bar you will search for an economic series you may want to inspect, let's search for *real gdp*, select the first time series that appears and write the code next to the time series title.
+
+![Real GDP search.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/rgdp.png "RGDP Search")
+![Real GDP selection and title name.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/rgdp_name.png "Real Gross Domestic Product Time Series")
+
 
 
