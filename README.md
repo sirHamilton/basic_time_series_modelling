@@ -4,7 +4,7 @@ Apply basic time series/econometric techniques to financial data (i.e Equities, 
 ## How to use
 On the **run.py** section of the code, you can select to lookup economic time series from the St. Louis Federal Reserve website (*FRED*) or equities from the TD Ameritrade API.
 
-The code for equities will look like this:
+### The code for equities will look like this:
 ```python
 if __name__ == "__main"":
   equities = ['AAPL']  # here you can input any other ticker symbol for equities as a list.
@@ -19,3 +19,8 @@ if __name__ == "__main"":
   # Only one equity time series is available.
   # If auto_solve=False, you will have to manually set the arima and garch specifications to the model.
 ```
+
+### For economic time series from *FRED*
+
+
+
