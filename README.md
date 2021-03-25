@@ -4,6 +4,8 @@ Apply basic time series/econometric techniques to financial data (i.e Equities, 
 ## How to use
 On the **run.py** section of the code, you can select to lookup economic time series from the St. Louis Federal Reserve website (*FRED*) or equities from the TD Ameritrade API.
 
+You may like to visit [here](https://www.investing.com/equities/most-active-stocks) for a list of the most active stocks by Investing.
+
 ### The code for equities will look like this:
 ```python
 if __name__ == "__main"":
