@@ -26,7 +26,7 @@ if __name__ == "__main"":
 
 Please visit the St. Louis Fed website found [here](https://fred.stlouisfed.org/).
 
-![On top of the page you'll find the search bar for time series data.](/screenshots/fred_website.jpg?raw=true "St. Louis Federal Reserve Page")
+![On top of the page you'll find the search bar for time series data.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/fred_website.png "St. Louis Federal Reserve Page")
 
 
 
