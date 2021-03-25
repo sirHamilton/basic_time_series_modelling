@@ -22,7 +22,11 @@ if __name__ == "__main"":
   # If auto_solve=False, you will have to manually set the arima and garch specifications to the model.
 ```
 
-### For economic time series from *FRED*
+### For economic time series from *FRED*:
+
+Please visit the St. Louis Fed website found [here](https://fred.stlouisfed.org/).
+
+![On top of the page you'll find the search bar for time series data.](/screenshots/fred_website.jpg?raw=true "St. Louis Federal Reserve Page")
 
 
 
