@@ -48,3 +48,15 @@ if __name__ == "__main"":
   model(df, 'Real Gross Domestic Product', log_values=True, rescale=rescale, auto_solve=True)
 ```
 
+## Output
+
+The output of our economic model, if __auto_solve__ is selected, will look like the following.
+
+### Exploratory Data Analysis
+
+![Exploratory Data Analysis.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/data_visualization.png "Exploratory Data Analysis")
+
+### Forecast and Residuals Analysis
+
+![Forecast and Residuals Analysis.](https://github.com/sirHamilton/basic_time_series_modelling/blob/main/screenshots/output.png "Forecast and Residuals Analysis")
+
