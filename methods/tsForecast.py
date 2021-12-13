@@ -19,12 +19,12 @@ def model(ts, name, log_values=False, train=0.95, rescale=100, arima=(0, 0, 0), 
     Select the best time-series model.
     :param log_values: Transform values into logarithmic notation.
     :param auto_solve: 
-    :param rescale: 
+    :param rescale: Scale values (Revert)
     :param garch: General Auto-Regressive Conditionalm Heterokedasticity - Used to model volatility.
     :param arima: Auto-Regressive Integrated Moving Average
     :param ts: Time Series dataset
     :param name: Name to use
-    :param train:
+    :param train: Training dataset
     :return:
     """
     start = time()
