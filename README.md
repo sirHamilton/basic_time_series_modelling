@@ -1,5 +1,5 @@
 # Basic Time Series Modelling
-Apply basic time series/econometric techniques to financial data (i.e Equities, Economic Indicators).
+Apply basic time series/econometric techniques to financial data (i.e Equities, Economic Indicators, et cetera).
 
 ## How to use
 On the **run.py** section of the code, you can select to lookup economic time series from the St. Louis Federal Reserve website (*FRED*) or equities from the TD Ameritrade API.
