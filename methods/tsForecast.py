@@ -17,13 +17,13 @@ from tabulate import tabulate
 def model(ts, name, log_values=False, train=0.95, rescale=100, arima=(0, 0, 0), garch=(1, 0, 0), auto_solve=False):
     """
     Select the best time-series model.
-    :param log_values:
-    :param auto_solve:
-    :param rescale:
-    :param garch:
-    :param arima:
-    :param ts:
-    :param name:
+    :param log_values: Transform values into logarithmic notation.
+    :param auto_solve: 
+    :param rescale: 
+    :param garch: General Auto-Regressive Conditionalm Heterokedasticity - Used to model volatility.
+    :param arima: Auto-Regressive Integrated Moving Average
+    :param ts: Time Series dataset
+    :param name: Name to use
     :param train:
     :return:
     """
